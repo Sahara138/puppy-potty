@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -122,3 +122,33 @@
     @apply bg-background text-foreground;
   }
 }
+
+@theme {
+  --font-poppins: "Poppins", sans-serif; 
+  --font-manjari: "Manjari", sans-serif;
+  --color-main-bg: #f9f9f9;
+  --color-primary: #F9CE3B; 
+  --color-black: #000000; 
+  --color-black-01: #27233A; 
+  --color-black-02: #27233AE5; 
+  --color-black-03: #1E1E1E;
+  --color-black-04: #333333; 
+}
+
+@utility container{
+    max-width: 1170px;
+    margin: 0 auto;
+  
+ }
+/*@utility {
+
+  .container{
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+} */
+
+body{
+  background-color:var(--color-main-bg);
+}
+
