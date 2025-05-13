@@ -61,5 +61,45 @@ export const productData = [
         brand:"Food Eco",
         buttonText:"Our Review",
     },
+    {
+        image:ProductImage,
+        advantages:[
+            {
+                icon:ProductIcon,
+                title:"100% Organic Material",   
+            },
+            {
+                icon:ProductIcon,
+                title:"Reduce Wastage ",
+            },
+            {
+                icon:ProductIcon,
+                title:"Quicker Potty Training ",
+            },
+            
+        ],
+        brand:"Food Eco",
+        buttonText:"Our Review",
+    },
+    {
+        image:ProductImage,
+        advantages:[
+            {
+                icon:ProductIcon,
+                title:"100% Organic Material",   
+            },
+            {
+                icon:ProductIcon,
+                title:"Reduce Wastage ",
+            },
+            {
+                icon:ProductIcon,
+                title:"Quicker Potty Training ",
+            },
+            
+        ],
+        brand:"Food Eco",
+        buttonText:"Our Review",
+    },
 
 ]

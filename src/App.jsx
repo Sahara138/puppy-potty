@@ -3,6 +3,8 @@ import "./App.css";
 import { createBrowserRouter, createRoutesFromElements } from "react-router";
 import RootLayout from "./Layout/RootLayout";
 import Home from "./pages/home";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 function App() {
